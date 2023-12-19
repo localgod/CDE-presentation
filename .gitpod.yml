@@ -1,0 +1,6 @@
+
+vscode:
+  extensions:
+    - Codeium.codeium
+    - dbaeumer.vscode-eslint
+    - medo64.render-crlf
