@@ -61,6 +61,7 @@ hide: false
 
 ---
 transition: fade-out
+layout: two-cols
 src: ./pages/03-advantages.md
 hide: false
 ---
