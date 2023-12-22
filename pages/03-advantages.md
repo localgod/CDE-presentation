@@ -10,6 +10,8 @@
 - **Efficiency in Development:** 
   - Speedier acquisition of required dependencies streamlines development processes, reducing waiting time and enhancing productivity.
 
+::right::
+
 ### Additional Benefits:
 
 - **Enhanced Collaboration:**
