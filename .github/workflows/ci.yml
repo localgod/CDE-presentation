@@ -15,7 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install dependencies
         run: |
-          ./setup.sh
           npm ci
       - name: Lint
         run: |
