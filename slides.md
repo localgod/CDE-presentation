@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/IBM_Electronic_Data_Processing_Machine_-_GPN-2000-001881.jpg/2560px-IBM_Electronic_Data_Processing_Machine_-_GPN-2000-001881.jpg
 class: text-center
 highlighter: shikiji
 lineNumbers: false
@@ -12,11 +12,11 @@ info: |
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
 mdc: true
 ---
 
-# Presentation slides for developers
+# Development environments
+## Time to rethink... again  
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -45,7 +45,7 @@ layout: default
 
 # Table of contents
 
-<Toc maxDepth="2"></Toc>
+<Toc maxDepth="1"></Toc>
 
 ---
 transition: fade-out
@@ -61,8 +61,17 @@ hide: false
 
 ---
 transition: fade-out
-layout: two-cols
+layout: image-right
+image: https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080
 src: ./pages/03-advantages.md
+hide: false
+---
+
+---
+transition: fade-out
+layout: image-right
+image: https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080
+src: ./pages/08-collaboration_and_accessability.md
 hide: false
 ---
 
@@ -86,6 +95,27 @@ hide: false
 
 ---
 transition: fade-out
-src: ./pages/07-virtualbox.md
+layout: section
+src: ./pages/virtualbox.md
 hide: false
 ---
+
+---
+transition: fade-out
+src: ./pages/07-1-virtualbox.md
+hide: false
+---
+
+---
+transition: fade-out
+src: ./pages/07-2-virtualbox.md
+hide: false
+---
+
+---
+transition: fade-out
+src: ./pages/07-3-virtualbox.md
+hide: false
+---
+
+
