@@ -5,9 +5,6 @@
 - **Resource Allocation:**
   - Adequate memory and CPU allocation necessary for optimal performance.
 
-- **Security Measures:**
-  - Implement security best practices to safeguard virtualized environments.
-
 - **Integration with DevOps:**
   - Explore integration possibilities with DevOps workflows for seamless environment management.
 

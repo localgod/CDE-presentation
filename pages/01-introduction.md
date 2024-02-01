@@ -1,7 +1,4 @@
-# Introduction
-
-- Welcome & Introduction
-- Brief Overview of Presentation Structure
+# What are we talking about then
 
 |                                                           | On premise   | Clientbased | License    | IDE integration |
 |-----------------------------------------------------------|--------------|-------------|------------|-----------------|

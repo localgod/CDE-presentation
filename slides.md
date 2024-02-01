@@ -4,18 +4,15 @@ background: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/IBM_Electr
 class: text-center
 highlighter: shikiji
 lineNumbers: false
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
 transition: slide-left
 mdc: true
+hideInToc: true
 ---
 
 # Development environments
+
 ## Time to rethink... again  
 
 <div class="pt-12">
@@ -41,55 +38,35 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 transition: fade-out
 layout: default
+hideInToc: true
 ---
 
 # Table of contents
 
-<Toc maxDepth="1"></Toc>
+<Toc maxDepth="1" ></Toc>
+
+---
+transition: fade-out
+src: ./pages/whoami.md
+layout: two-cols
+---
+
+---
+transition: fade-out
+src: ./pages/disclaimer.md
+layout: two-cols
+---
+
+---
+transition: fade-out
+src: ./pages/history.md
+hide: false
+---
+
 
 ---
 transition: fade-out
 src: ./pages/01-introduction.md
-hide: false
----
-
----
-transition: fade-out
-src: ./pages/02-traditionalvscloudbased.md
-hide: false
----
-
----
-transition: fade-out
-layout: image-right
-image: https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080
-src: ./pages/03-advantages.md
-hide: false
----
-
----
-transition: fade-out
-layout: image-right
-image: https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080
-src: ./pages/08-collaboration_and_accessability.md
-hide: false
----
-
----
-transition: fade-out
-src: ./pages/04-security.md
-hide: false
----
-
----
-transition: fade-out
-src: ./pages/05-securityandbenefits.md
-hide: false
----
-
----
-transition: fade-out
-src: ./pages/06-conclusion.md
 hide: false
 ---
 
@@ -118,4 +95,49 @@ src: ./pages/07-3-virtualbox.md
 hide: false
 ---
 
+---
+transition: fade-out
+src: ./pages/07-4-virtualbox.md
+hide: false
+---
 
+
+---
+transition: fade-out
+src: ./pages/02-traditionalvscloudbased.md
+hide: false
+---
+
+---
+transition: fade-out
+layout: image-right
+image: https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080
+src: ./pages/03-advantages.md
+hide: false
+---
+
+---
+transition: fade-out
+layout: image-right
+image: <https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMzM5Mzh8MHwxfGFsbHx8fHx8fHx8fDE3MDQyNzUxOTR8&ixlib=rb-4.0.3&q=80&w=1080>
+src: ./pages/08-collaboration_and_accessability.md
+hide: false
+---
+
+---
+transition: fade-out
+src: ./pages/04-security.md
+hide: false
+---
+
+---
+transition: fade-out
+src: ./pages/05-securityandbenefits.md
+hide: false
+---
+
+---
+transition: fade-out
+src: ./pages/06-conclusion.md
+hide: false
+---
